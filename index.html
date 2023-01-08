@@ -1,173 +1,184 @@
 <!DOCTYPE html>
-<html>
+<html lang= "en">
 <head>
-<title>Registration</title>
-
+    <title>Registration2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
-    @media (min-width:600px)   
-    {
-        #move{
-            margin-left: 550px;
-        }
-    body {
-        background-color: rgb(171, 95, 120);
-    }
-
-        #tryit{
-            border-radius: 10px;
-            width: 310px;
-            height: 30px;
-            background-color: blue; 
-            background-size:cover;
-            color: white;
-            padding: 10px;
+     @media (min-width:600px) {
+     body{
+        display: flex;
+        background-color: palevioletred; }
         
-        }
-        input{
+#text1 {
+padding: 20px;
+color: white;
+margin-left: 200px;
+text-align: justify;
+margin-top: 100px;
+width: 100px;
+height: 100px;
+text-align: justify;
+line-height: 1.5;
+}
+#head1{
+    font-size: 15px;
+    height: 50px;
+    width: 400px;
+    background-color: purple;
+    text-align: center;
+    color: white;
+    align-content: center;
+    margin-left: 50px;
+    padding-top: 20px;
+    border-radius: 5px;
+   }
+pre{
+    text-align: center;
+}
+
+#form1{
+display: flex;
+flex-direction: column;
+background-color: white;
+height: 500px;
+width: 370px;
+margin-left: 50px;
+border-radius: 5px;
+padding: 10px;
+padding-left: 20px;
+}
+input{
+    align-items: center;
             border: 1px ;
             border-style: solid;
             border-width: 1px;
             border-radius: 5px;
          margin-bottom: 30px;
-         height: 30px;
-         width: 260px;
+         height: 40px;
+         width: 300px;
+         margin-right: 0px;
+        margin-top:20px;
+        padding-right: 30px;
             }
-            
             button{
-                background-color: green; 
-                margin: 2px;
-                 border: 1px; 
-                 padding: 5px;
-                 border-radius: 5px;
-            }
-            form{
-                padding: 25px;
-                height: 220px;
-                width: 280px;
-                margin-bottom: 15px;
+                background-color: green;
                 border-radius: 5px;
-            }
-            #writeup {
-                padding-left: 200px; 
+                height: 40px;
+                width: 330px;
                 color: white;
-                background-size: 20px;
-                float:left; 
-                margin-top:120px;
-                margin-left: 100px;
-                padding-left: 40px;
-                
+                border:0px;
+                font-size: 20px;
+     }
+    
+     #tryitfree{
+                margin:40px; margin-left: 400px;
+            }
 
-            }
-            button{
-            width: 300px;
-            height: 50px;
-            margin-bottom: 10px;
-            margin-left: 10px;
-            font-size: 15px;
-            color: white;
-            }
-            #terms{
-                font-size: x-small;
-                margin-left: 30px;
-                color: rgb(132, 126, 126);
-            }
-            button:hover {color: blue;}
-        }
-        @media (max-width: 599px){
-    body {
-        background-color: rgb(171, 95, 120);
-        background-repeat:no-repeat;
-        background-size: contain;
-        background-attachment: fixed;
-        background-repeat: repeat-x;
     }
+    @media (max-width: 599px){
+    body{
+        background-color: palevioletred;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+#text1 {
+padding: 20px;
+color: white;
+margin-left: 50px;
+}
+#head1{
+    font-size: 15px;
+    height: 50px;
+    width: 400px;
+    background-color: purple;
+    text-align: center;
+    color: white;
+    align-content: center;
+    margin-left: 50px;
+    padding-top: 20px;
+    border-radius: 5px;
+   }
+pre{
+    text-align: center;
+}
 
-        #tryit{
-            border-radius: 10px;
-            width: 310px;
-            height: 30px;
-            background-color: blue; 
-            background-size:cover;
-            color: white;
-            padding: 10px;
-        
-        }
-        input{
+#form1{
+display: flex;
+flex-direction: column;
+background-color: white;
+height: 500px;
+width: 370px;
+margin-left: 50px;
+border-radius: 5px;
+padding: 10px;
+padding-left: 20px;
+}
+input{
+    align-items: center;
             border: 1px ;
             border-style: solid;
             border-width: 1px;
             border-radius: 5px;
          margin-bottom: 30px;
-         height: 30px;
-         width: 260px;
+         height: 40px;
+         width: 300px;
+         margin-right: 0px;
+        margin-top:20px;
+        padding-right: 30px;
+            }
+            button{
+                background-color: green;
+                border-radius: 5px;
+                height: 40px;
+                width: 330px;
+                color: white;
+                border:0px;
+                font-size: 20px;
             }
             
-            button{
-                background-color: green; 
-                margin: 2px;
-                 border: 1px; 
-                 padding: 5px;
-                 border-radius: 5px;
-            }
-            form{
-                padding: 25px;
-                height: 220px;
-                width: 280px;
-                margin-bottom: 15px;
-                border-radius: 5px;
-            }
-            #writeup {               
-                color: white;
-                background-size: 20px;              
-                padding-left: 40px;       
-            }
-            button{
-            width: 300px;
-            height: 50px;
-            margin-bottom: 10px;
-            margin-left: 10px;
-            font-size: 15px;
-            color: white;
-            }
-            #terms{
-                font-size: x-small;
-                margin-left: 30px;
-                color: rgb(132, 126, 126);
-            }
-            button:hover {color: blue;}
         }
+            
 </style>
-        
 </head>
 <body>
-    <div id="writeup">
-<h1>  
-<div> Learn to code by </div>
-<div> watching others </div>
+    <div id="text1">
+<h1>
+<pre style="font-size: 40px;">
+Learn to code by
+watching others
+</pre>
 </h1>
-    <div> see how experienced developers solve problems in real-time.</div>
-    <div> watching scripted tutorials is great but understand how</div>
-    <div> developers think is invaluble</div>
+<pre style="font-size: 15px; ">
+See how experienced developers solve problems 
+in real-time.
+watching scripted tutorials is great but
+understanding how
+developers think is invaluable.
+</pre>
+</div>
+<div id="tryitfree">
+<pre id="head1">
+    <b>Try it free for 7days</b> then $20/month,
+     thereafter
+</pre>
+<div id="form1">
+    <form style="margin-top: 20px;">
+        <div><input type="text" placeholder="First name" name="First name"></div>
+       <div><input type="text" placeholder="Last name" name="Last name"></div>
+        <div><input type="text" placeholder="Email address" name="Email"></div>
+       <div></div> <input type="password" placeholder="Password" name="password">
+    </form>
+    <div>
+        <button>
+            Start Your Free Trial    </button>
+    </div>
+    <pre style="font-size: 7px; padding-right: 40px;">
+    By clicking the button you are agreeing to see our <b style="color: red;">terms and services.</b>
+    </pre>
+</div>
 </div>
 
-<div id="move">
-<h5 id="tryit">
-    <div style="margin-left: 15px; margin-bottom: 20px;">Try it free for 7 days then $20/month, thereafter</div>
-</h5>
-<div style="background-color:white; height: 500px; border-radius: 5px; width: 330px;">
-<form>
-    <div><input type="text" placeholder="First name" name="First name"></div>
-   <div><input type="text" placeholder="Last name" name="Last name"></div>
-    <div><input type="text" placeholder="Email address" name="Email"></div>
-   <div></div> <input type="password" placeholder="Password" name="password">
-</form>
-    <button>
-         Claim Your Free Trial
-    </button>
-    <div id="terms">
-    By clicking the button, you are agreeing to our terms and services
-    </div>
-</div>
 </body>
 </html>
  
