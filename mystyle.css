@@ -1,7 +1,7 @@
 @media (min-width:599px){
-     body{
-        display: flex;
-        background-color: palevioletred;}       
+    body{
+       display: flex;
+       background-color: palevioletred;}       
 #text1 {
 padding: 20px;
 color: white;
@@ -14,19 +14,19 @@ text-align: justify;
 line-height: 1.5;
 }
 #head1{
-    font-size: 15px;
-    height: 50px;
-    width: 400px;
-    background-color: purple;
-    text-align: center;
-    color: white;
-    align-content: center;
-    margin-left: 50px;
-    padding-top: 20px;
-    border-radius: 5px;
-   }
+   font-size: 15px;
+   height: 50px;
+   width: 400px;
+   background-color: purple;
+   text-align: center;
+   color: white;
+   align-content: center;
+   margin-left: 50px;
+   padding-top: 20px;
+   border-radius: 5px;
+  }
 pre{
-    text-align: center;
+   text-align: center;
 }
 
 #form1{
@@ -41,62 +41,62 @@ padding: 10px;
 padding-left: 20px;
 }
 input{
-    align-items: center;
-            border: 1px ;
-            border-style: solid;
-            border-width: 1px;
-            border-radius: 5px;
-         margin-bottom: 30px;
-         height: 40px;
-         width: 300px;
-         margin-right: 0px;
-        margin-top:20px;
-        padding-right: 30px;
-            }
-            button{
-                background-color: green;
-                border-radius: 5px;
-                height: 40px;
-                width: 330px;
-                color: white;
-                border:0px;
-                font-size: 20px;
-     }
-    
-     #tryitfree{
-                margin:40px; margin-left: 400px;
-            }
+   align-items: center;
+           border: 1px ;
+           border-style: solid;
+           border-width: 1px;
+           border-radius: 5px;
+        margin-bottom: 30px;
+        height: 40px;
+        width: 300px;
+        margin-right: 0px;
+       margin-top:20px;
+       padding-right: 30px;
+           }
+           button{
+               background-color: green;
+               border-radius: 5px;
+               height: 40px;
+               width: 330px;
+               color: white;
+               border:0px;
+               font-size: 20px;
+    }
+   
+    #tryitfree{
+               margin:40px; margin-left: 400px;
+           }
 
-    }
-    @media (orientation:portrait){
-    body{
-        background-color: palevioletred;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-    }
+   }
+   @media (max-width: 600px){
+   body{
+       background-color: palevioletred;
+       display: flex;
+       flex-direction: column;
+       align-items: flex-start;
+   }
 #text1 {
-    width: fit-content;
-    height:fit-content;
-    align-items: center;
+   width: fit-content;
+   height:fit-content;
+   align-items: center;
 padding: 20px;
 color: white;
-margin-left: 45px;
+margin-left:auto;
 }
 #head1{
-    font-size: 15px;
-    height: 50px;
-    width: 400px;
-    background-color: purple;
-    text-align: center;
-    color: white;
-    align-content: center;
-    margin-left: 50px;
-    padding-top: 20px;
-    border-radius: 5px;
-   }
+   font-size: 15px;
+   height: 50px;
+   width: 400px;
+   background-color: purple;
+   text-align: center;
+   color: white;
+   align-content: center;
+   margin-left:auto;
+   padding-top: 20px;
+   border-radius: 5px;
+  }
 pre{
-    text-align: center;
+   text-align: center;
 }
 
 #form1{
@@ -105,32 +105,32 @@ flex-direction: column;
 background-color: white;
 height: 500px;
 width: 370px;
-margin-left: 50px;
+margin-left: 40px;
 border-radius: 5px;
 padding: 10px;
-padding-left: 20px;
+padding-left: 10px;
 }
 input{
-    align-items: center;
-            border: 1px ;
-            border-style: solid;
-            border-width: 1px;
-            border-radius: 5px;
-         margin-bottom: 30px;
-         height: 40px;
-         width: 300px;
-         margin-right: 0px;
-        margin-top:20px;
-        padding-right: 30px;
-            }
-            button{
-                background-color: green;
-                border-radius: 5px;
-                height: 40px;
-                width: 330px;
-                color: white;
-                border:0px;
-                font-size: 20px;
-            }
-            
-        }
+   align-items: center;
+           border: 1px ;
+           border-style: solid;
+           border-width: 1px;
+           border-radius: 5px;
+        margin-bottom: 30px;
+        height: 40px;
+        width: 300px;
+        margin-right: 0px;
+       margin-top:20px;
+       padding-right: 30px;
+           }
+           button{
+               background-color: green;
+               border-radius: 5px;
+               height: 40px;
+               width: 330px;
+               color: white;
+               border:0px;
+               font-size: 20px;
+           }
+           
+       }
