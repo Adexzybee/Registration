@@ -49,6 +49,7 @@ button{
 #terms{
     margin: 10px;
     text-align: center;
+    font-size:x-small;
 }
 #tryitfree, #form{
     display: flex;
