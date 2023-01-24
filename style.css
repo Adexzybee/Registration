@@ -1,0 +1,98 @@
+
+body{
+    background-color: palevioletred;
+}
+#learn2, #seehow, #tryitfree{
+    font-size: 100%;
+    margin: 30px;
+    text-align: center;
+    color: white;
+}
+#tryitfree{
+    width: 320px;
+    height: 60px;
+    background-color: purple;
+    border-radius: 5px;
+    padding: 1px;
+    }
+#form1{
+    height: 480px;
+    width: 330px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 20px;
+    padding-top: 30px;
+}
+form{
+    margin-bottom: 10px;
+}
+input{
+    height: 20px;
+    width: 280px;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin: 15px;
+    margin-top: 10px;
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+button{
+    width: 300px;
+    height: 40px;
+    background-color: green;
+    border-radius: 5px;
+    margin: 10px;
+    color: white;
+    border: 0px;
+}
+#terms{
+    margin: 10px;
+    text-align: center;
+}
+#tryitfree, #form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center
+}
+@media(min-width:768px){
+    body{
+     display: flex;
+         }
+    center{
+        padding-left: 400px;
+        padding-top: 100px;
+    }
+#text1{
+    padding-top: 350px;
+    padding-left: 150px;
+    font-size: 32px;
+    
+}
+#tryitfree{
+    width: 650px;
+    height: 85px;
+    font-size: 23px;
+    margin-top: 10px;
+    }
+    #form1{
+        height: 800px;
+        width: 650px;
+        padding-top: 40px;
+        margin-bottom: 40px;
+        }
+        input{
+            height: 50px;
+            width: 550px;
+            margin-bottom: 50px;
+            }
+            button{
+                width: 580px;
+                height: 70px;
+                font-size:x-large};
+            #terms{ font-size:x-large
+            }
+                
+            }
+
